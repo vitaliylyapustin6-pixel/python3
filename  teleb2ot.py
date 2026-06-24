@@ -31,7 +31,7 @@ async def add_book_handler(message: types.Message):
             print(rows)
 
 @dp.message(CommandStart())
-async def start_commanddd(message: types.Message):
+async def sssfds(message: types.Message):
     # Используем InlineKeyboardButton напрямую для читаемости
     kb = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="Статистика", callback_data="status_callback")]
